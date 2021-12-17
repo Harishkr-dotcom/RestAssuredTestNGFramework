@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="GoogleAPITest.PostAddress">
+        <methods>
+          <include name="createPlaceTest"/>
+          <include name="getPlaceTest"/>
+          <include name="deletePlaceTest"/>
+          <include name="getResult"/>
+          <include name="flushReport"/>
+          <include name="startExtendReport"/>
+          <include name="updatePlaceTest"/>
+          <include name="BaseURI"/>
+        </methods>
+      </class> <!-- GoogleAPITest.PostAddress -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
