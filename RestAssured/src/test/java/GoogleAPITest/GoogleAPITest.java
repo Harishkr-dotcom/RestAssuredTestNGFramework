@@ -50,7 +50,7 @@ public class GoogleAPITest extends BaseTest {
 		request.setAddress("Kodavathi");
 		Response response = apimethods.updatePlaceAPI(response1.getPlaceId().toString(), request);
 		apimethods.validateStatusCode(response, 200);
-		Assert.assertEquals(response.jsonPath().get("msg"), "Address successfully updated");
+		Assert.assertEquals(response.jsonPath().get("msg").toString(), "Address successfully updated");
 	}
 	
 	@Test(priority=4)
@@ -62,7 +62,7 @@ public class GoogleAPITest extends BaseTest {
 		request.setKey(null);
 		Response response = apimethods.deletePlaceAPI(request);
 		apimethods.validateStatusCode(response, 200);
-		Assert.assertEquals(response.jsonPath().get("status"), "OK");
+		Assert.assertEquals(response.jsonPath().get("status").toString(), "OK");
 	}
 	
 	@Test(priority=5)
@@ -70,7 +70,7 @@ public class GoogleAPITest extends BaseTest {
 		setTestDesc("Get place after deleting the place");
 		Response response = apimethods.getPlaceAPIusingRequestSpecificattion(response1.getPlaceId().toString());
 		apimethods.validateStatusCode(response, 404);
-		Assert.assertEquals(response.jsonPath().get("msg"), "Get operation failed, looks like place_id  doesn't exists");
+		Assert.assertEquals(response.jsonPath().get("msg").toString(), "Get operation failed, looks like place_id  doesn't exists");
 		
 	}
 	

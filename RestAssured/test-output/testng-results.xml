@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18620" started-at="2021-12-18T12:41:04Z" finished-at="2021-12-18T12:41:22Z">
+  <suite name="Default suite" duration-ms="26678" started-at="2021-12-18T12:54:12Z" finished-at="2021-12-18T12:54:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18620" started-at="2021-12-18T12:41:04Z" finished-at="2021-12-18T12:41:22Z">
+    <test name="Default test" duration-ms="26678" started-at="2021-12-18T12:54:12Z" finished-at="2021-12-18T12:54:39Z">
       <class name="GoogleAPITest.GoogleAPITest">
-        <test-method status="PASS" signature="startExtendReport()[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="startExtendReport" is-config="true" duration-ms="240" started-at="2021-12-18T12:41:04Z" finished-at="2021-12-18T12:41:04Z">
+        <test-method status="PASS" signature="startExtendReport()[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="startExtendReport" is-config="true" duration-ms="400" started-at="2021-12-18T12:54:12Z" finished-at="2021-12-18T12:54:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtendReport -->
-        <test-method status="PASS" signature="BaseURI(java.lang.reflect.Method)[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="BaseURI" is-config="true" duration-ms="651" started-at="2021-12-18T12:41:04Z" finished-at="2021-12-18T12:41:05Z">
+        <test-method status="PASS" signature="BaseURI(java.lang.reflect.Method)[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="BaseURI" is-config="true" duration-ms="768" started-at="2021-12-18T12:54:12Z" finished-at="2021-12-18T12:54:13Z">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BaseURI -->
-        <test-method status="PASS" signature="createPlaceTest()[pri:1, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="createPlaceTest" duration-ms="4092" started-at="2021-12-18T12:41:05Z" finished-at="2021-12-18T12:41:09Z">
+        <test-method status="PASS" signature="createPlaceTest()[pri:1, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="createPlaceTest" duration-ms="8758" started-at="2021-12-18T12:54:13Z" finished-at="2021-12-18T12:54:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPlaceTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="getResult" is-config="true" duration-ms="21" started-at="2021-12-18T12:41:09Z" finished-at="2021-12-18T12:41:09Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="getResult" is-config="true" duration-ms="276" started-at="2021-12-18T12:54:22Z" finished-at="2021-12-18T12:54:22Z">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="BaseURI(java.lang.reflect.Method)[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="BaseURI" is-config="true" duration-ms="0" started-at="2021-12-18T12:41:09Z" finished-at="2021-12-18T12:41:09Z">
+        <test-method status="PASS" signature="BaseURI(java.lang.reflect.Method)[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="BaseURI" is-config="true" duration-ms="1" started-at="2021-12-18T12:54:22Z" finished-at="2021-12-18T12:54:22Z">
           <params>
             <param index="0">
               <value>
@@ -48,11 +48,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BaseURI -->
-        <test-method status="PASS" signature="getPlaceTest()[pri:2, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="getPlaceTest" duration-ms="2801" started-at="2021-12-18T12:41:09Z" finished-at="2021-12-18T12:41:11Z">
+        <test-method status="PASS" signature="getPlaceTest()[pri:2, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="getPlaceTest" duration-ms="3933" started-at="2021-12-18T12:54:22Z" finished-at="2021-12-18T12:54:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPlaceTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="getResult" is-config="true" duration-ms="0" started-at="2021-12-18T12:41:11Z" finished-at="2021-12-18T12:41:11Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="getResult" is-config="true" duration-ms="0" started-at="2021-12-18T12:54:26Z" finished-at="2021-12-18T12:54:26Z">
           <params>
             <param index="0">
               <value>
@@ -63,11 +63,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="updatePlaceTest()[pri:3, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="updatePlaceTest" duration-ms="4384" started-at="2021-12-18T12:41:11Z" finished-at="2021-12-18T12:41:16Z">
+        <test-method status="PASS" signature="updatePlaceTest()[pri:3, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="updatePlaceTest" duration-ms="5377" started-at="2021-12-18T12:54:26Z" finished-at="2021-12-18T12:54:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatePlaceTest -->
-        <test-method status="PASS" signature="BaseURI(java.lang.reflect.Method)[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="BaseURI" is-config="true" duration-ms="0" started-at="2021-12-18T12:41:11Z" finished-at="2021-12-18T12:41:11Z">
+        <test-method status="PASS" signature="BaseURI(java.lang.reflect.Method)[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="BaseURI" is-config="true" duration-ms="0" started-at="2021-12-18T12:54:26Z" finished-at="2021-12-18T12:54:26Z">
           <params>
             <param index="0">
               <value>
@@ -78,18 +78,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BaseURI -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="getResult" is-config="true" duration-ms="0" started-at="2021-12-18T12:41:16Z" finished-at="2021-12-18T12:41:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=updatePlaceTest status=SUCCESS method=GoogleAPITest.updatePlaceTest()[pri:3, instance:GoogleAPITest.GoogleAPITest@3abbfa04] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="BaseURI(java.lang.reflect.Method)[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="BaseURI" is-config="true" duration-ms="1" started-at="2021-12-18T12:41:16Z" finished-at="2021-12-18T12:41:16Z">
+        <test-method status="PASS" signature="BaseURI(java.lang.reflect.Method)[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="BaseURI" is-config="true" duration-ms="0" started-at="2021-12-18T12:54:31Z" finished-at="2021-12-18T12:54:31Z">
           <params>
             <param index="0">
               <value>
@@ -100,11 +89,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BaseURI -->
-        <test-method status="PASS" signature="deletePlaceTest()[pri:4, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="deletePlaceTest" duration-ms="3045" started-at="2021-12-18T12:41:16Z" finished-at="2021-12-18T12:41:19Z">
+        <test-method status="PASS" signature="deletePlaceTest()[pri:4, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="deletePlaceTest" duration-ms="3267" started-at="2021-12-18T12:54:31Z" finished-at="2021-12-18T12:54:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePlaceTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="getResult" is-config="true" duration-ms="6" started-at="2021-12-18T12:41:19Z" finished-at="2021-12-18T12:41:19Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="getResult" is-config="true" duration-ms="0" started-at="2021-12-18T12:54:31Z" finished-at="2021-12-18T12:54:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updatePlaceTest status=SUCCESS method=GoogleAPITest.updatePlaceTest()[pri:3, instance:GoogleAPITest.GoogleAPITest@3abbfa04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="getResult" is-config="true" duration-ms="9" started-at="2021-12-18T12:54:35Z" finished-at="2021-12-18T12:54:35Z">
           <params>
             <param index="0">
               <value>
@@ -115,7 +115,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="BaseURI(java.lang.reflect.Method)[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="BaseURI" is-config="true" duration-ms="0" started-at="2021-12-18T12:41:19Z" finished-at="2021-12-18T12:41:19Z">
+        <test-method status="PASS" signature="BaseURI(java.lang.reflect.Method)[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="BaseURI" is-config="true" duration-ms="1" started-at="2021-12-18T12:54:35Z" finished-at="2021-12-18T12:54:35Z">
           <params>
             <param index="0">
               <value>
@@ -126,11 +126,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BaseURI -->
-        <test-method status="PASS" signature="getPlaceAfterdeletTest()[pri:5, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="getPlaceAfterdeletTest" duration-ms="2798" started-at="2021-12-18T12:41:19Z" finished-at="2021-12-18T12:41:22Z">
+        <test-method status="PASS" signature="getPlaceAfterdeletTest()[pri:5, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="getPlaceAfterdeletTest" duration-ms="2917" started-at="2021-12-18T12:54:35Z" finished-at="2021-12-18T12:54:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPlaceAfterdeletTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="getResult" is-config="true" duration-ms="6" started-at="2021-12-18T12:41:22Z" finished-at="2021-12-18T12:41:22Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="getResult" is-config="true" duration-ms="6" started-at="2021-12-18T12:54:38Z" finished-at="2021-12-18T12:54:38Z">
           <params>
             <param index="0">
               <value>
@@ -141,7 +141,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="flushReport()[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="flushReport" is-config="true" duration-ms="487" started-at="2021-12-18T12:41:22Z" finished-at="2021-12-18T12:41:22Z">
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:GoogleAPITest.GoogleAPITest@3abbfa04]" name="flushReport" is-config="true" duration-ms="879" started-at="2021-12-18T12:54:38Z" finished-at="2021-12-18T12:54:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->
