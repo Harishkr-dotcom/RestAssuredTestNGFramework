@@ -14,7 +14,7 @@ import com.qa.ServiceAPI.GoogleAPIHTTPMethods;
 
 import io.restassured.response.Response;
 
-public class PostAddress extends BaseTest {
+public class GoogleAPITest extends BaseTest {
 	
 	public static final String testdata1 =  System.getProperty("user.dir")+"\\TestDataJSONFiles\\CreatPlace.json";
 	public static final String testdata2 =  System.getProperty("user.dir")+"\\TestDataJSONFiles\\UpdatePlace.json";
@@ -63,6 +63,15 @@ public class PostAddress extends BaseTest {
 		Response response = apimethods.deletePlaceAPI(request);
 		apimethods.validateStatusCode(response, 200);
 		Assert.assertEquals(response.jsonPath().get("status"), "OK");
+	}
+	
+	@Test(priority=5)
+	public void getPlaceAfterdeletTest() throws IOException{
+		setTestDesc("Get place after deleting the place");
+		Response response = apimethods.getPlaceAPIusingRequestSpecificattion(response1.getPlaceId().toString());
+		apimethods.validateStatusCode(response, 404);
+		Assert.assertEquals(response.jsonPath().get("msg"), "Get operation failed, looks like place_id  doesn't exists");
+		
 	}
 	
 

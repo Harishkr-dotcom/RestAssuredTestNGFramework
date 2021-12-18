@@ -1,10 +1,13 @@
 package com.qa.ServiceAPI;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 
 import com.qa.BaseService.BaseStep;
 import com.qa.Requests.PostAdressRequest;
 import com.qa.Requests.UpdatePlaceRequest;
+import com.qa.RestUtils.RequestSpecification;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
@@ -57,6 +60,17 @@ public class GoogleAPIHTTPMethods {
 		  .log().all()
 		  .when()
 		  .put(deleteAPI);
+		  response.then().log().all();
+		 return response;
+	 }
+	 
+	 //Using request specification
+	 public Response getPlaceAPIusingRequestSpecificattion(String Place_Id) throws IOException{
+		  Response response = RestAssured.given().spec(RequestSpecification.requestSpecifications())
+		  .queryParam("place_id", Place_Id)
+		  .log().all()
+		  .when()
+		  .get(getAPI);
 		  response.then().log().all();
 		 return response;
 	 }

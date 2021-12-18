@@ -3,13 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="GoogleAPITest.PostAddress">
+      <class name="GoogleAPITest.GoogleAPITest">
         <methods>
-          <include name="baseURI"/>
-          <include name="getPlaceTest"/>
-          <include name="updatePlaceTest"/>
+          <include name="getResult"/>
+          <include name="flushReport"/>
+          <include name="getPlaceAfterdeletTest"/>
+          <include name="startExtendReport"/>
+          <include name="BaseURI"/>
         </methods>
-      </class> <!-- GoogleAPITest.PostAddress -->
+      </class> <!-- GoogleAPITest.GoogleAPITest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
