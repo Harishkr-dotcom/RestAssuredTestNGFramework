@@ -78,5 +78,9 @@ public class GoogleAPIHTTPMethods {
 	 public void validateStatusCode(Response response, int StatusCode){
 		 Assert.assertEquals(response.getStatusCode(), StatusCode);
 	 }
+	 
+	 public void validateHeader(Response response, String Header, String ExpectedHeader){
+		 Assert.assertEquals(response.getHeader(Header), ExpectedHeader);
+	 }
 
 }
